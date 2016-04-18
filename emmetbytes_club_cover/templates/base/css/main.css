@@ -1,0 +1,1441 @@
+.eb_club_cover{
+    text-align: center;
+    margin: 5px auto 10px;
+    margin-left: -4px;
+}
+
+.main_ebytes_club_cover_container{
+    background: #FFF;
+    position: relative;
+}
+
+.main_ebytes_club_cover_container
+.ebytes_club_cover_loader_container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 970;
+    display: none;
+    background: url('../images/large_loader.gif') center center #FFF no-repeat;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /* IE 8 */
+    filter: alpha(opacity=60); /* IE -6 */
+    -moz-opacity: .60; /* Netscape */
+    -khtml-opacity: .60; /* Safari 1.x */
+    opacity: .60; /* Good browsers */
+}
+
+.main_ebytes_club_cover_container
+.ebytes_club_cover_notification_container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    *width: auto;
+    z-index: 980;
+    display: none;
+}
+
+.main_ebytes_club_cover_container
+.ebytes_club_cover_notification_container
+.ebytes_club_cover_notification_background_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 976;
+    background: #FFF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /* IE 8 */
+    filter: alpha(opacity=60); /* IE -6 */
+    -moz-opacity: .60; /* Netscape */
+    -khtml-opacity: .60; /* Safari 1.x */
+    opacity: .60; /* Good browsers */
+}
+
+.main_ebytes_club_cover_container
+.ebytes_club_cover_notification_container
+.ebytes_club_cover_notification_text_container{
+    margin: 20px auto 0;
+    border: 1px solid #B80000;
+    display: inline-block;
+    background: #FFF;
+    padding: 10px 15px;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    z-index: 979;
+}
+
+.ebytes_club_cover_top_container{
+    position: relative;
+    height: 380px;
+}
+
+.ebytes_club_cover_top_container.ebytes_club_cover_top_container_no_background{
+    position: relative;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_logo_container{
+    position: absolute;
+    border: 1px solid #C7C7C7;
+    background: #FFF;
+    bottom: 0px;
+    left: 30px;
+    padding: 4px;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_logo_container 
+.ebytes_club_logo_container{
+    position: relative;
+    height: 166px;
+    width: 166px;
+    background: url('../images/pattern2.png') 0 0 repeat;
+    overflow: hidden;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_logo_container 
+.ebytes_club_cover_logo_button_container{
+    display: none;
+    position: absolute;
+    float: left;
+    bottom: 0px;
+    width: 100%;
+    z-index: 999;
+    cursor: pointer;
+    *zoom: 1;
+    *width: auto;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_logo_container:hover
+.ebytes_club_cover_logo_button_container{
+    display: block;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_logo_container 
+.ebytes_club_cover_logo_button_container
+.ebytes_club_cover_logo_button_inner_container{
+    background: #FFF;
+    border: 1px solid #717171;
+    margin: 0 auto 2px;
+    font-weight: bold;
+    font-size: 13px;
+    height: 16px;
+    display: inline-block;
+    padding: 2px 6px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_logo_container 
+.ebytes_club_cover_logo_button_container
+.ebytes_club_cover_logo_button_inner_container iframe{
+    height: 0px;
+    width: 0px;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_logo_container 
+.ebytes_club_cover_logo_button_container
+.ebytes_club_cover_logo_button_inner_container input{
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 245px;
+    cursor: pointer;
+    font-size: 80px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE -7 */
+    -moz-opacity: 0; /* Netscape */
+    -khtml-opacity: 0; /* Safari 1.x */
+    opacity: 0; /* Good browsers */
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_logo_container 
+.ebytes_club_cover_logo_button_container
+.ebytes_club_cover_logo_button_inner_container input.eb_club_cover_background_image{
+    border: none;
+    left: -114px;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container{
+    background: #F0F0F0;
+    position: relative;
+}
+
+.ebytes_club_cover_top_container.ebytes_club_cover_top_container_no_background 
+.ebytes_club_cover_background_container{
+    background: url('../images/default_bg.jpg') center center no-repeat;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_image_container{
+    height: 285px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container{
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container:hover
+.ebytes_club_cover_background_menu_container{
+    display: block;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container{
+    list-style: none;
+    padding: 4px 22px 4px 0px;
+    border: 1px solid #717171;
+    cursor: pointer;
+    font-weight: bold;
+    color: #212121;
+    background: #FFF;
+    position: relative;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+.ebytes_club_cover_background_menu_options_loader_container{
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    width: 16px;
+    height: 11px;
+    background: url('../images/loader.gif') 0 0 no-repeat;
+    display: none;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container 
+span.ebytes_club_cover_insert_background_icon_container{
+    background: url('../images/pc_background_icon.png') 0 0 no-repeat;
+    height: 14px;
+    width: 14px;
+    margin: 0px 4px;
+    float: left;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options{
+    position: absolute;
+    color: #000;
+    left: -1px;
+    margin: 4px 0 0;
+    padding: 0px;
+    border: 1px solid #717171;
+    width: 150px;
+    overflow: hidden;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options li{
+    display: block;
+    list-style: none;
+    float: left;
+    margin: 0px;
+    width: 150px;
+    text-align: left;
+    background: #FFF;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options 
+li.ebytes_club_cover_upload_background_container{
+    background: #FFF;
+    overflow: hidden;
+    position: relative;
+    height: 22px;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options 
+li.ebytes_club_cover_upload_background_container
+.ebytes_club_cover_upload_background_button{
+    padding: 4px 0px 4px 12px;
+    margin: 0px;
+    cursor: pointer;
+    height: 22px;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options 
+li.ebytes_club_cover_upload_background_container
+.ebytes_club_cover_upload_background_button
+.ebytes_club_cover_upload_background_icon{
+    float: left;
+    height: 14px;
+    width: 14px;
+    margin: 0 4px 0 0;
+    background: url('../images/pc_background_icon.png') 0 -14px no-repeat;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options 
+li.ebytes_club_cover_upload_background_container input{
+    border: none;
+    font-size: 100px;
+    position: absolute;
+    top: 0;
+    left: -115px;
+    top: 0px;
+    width: 282px; 
+    cursor: pointer;
+    color: #FFF;
+    border: 1px solid red;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE -7 */
+    -moz-opacity: 0; /* Netscape */
+    -khtml-opacity: 0; /* Safari 1.x */
+    opacity: 0; /* Good browsers */
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options 
+li.ebytes_club_cover_upload_background_container iframe{
+    height: 0px;
+    width: 0px;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options 
+li.ebytes_club_cover_reposition_background_container{
+    overflow: hidden;
+    position: relative;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options 
+li.ebytes_club_cover_reposition_background_container
+.ebytes_club_cover_reposition_background_button{
+    padding: 4px 0px 4px 12px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options 
+li.ebytes_club_cover_reposition_background_container
+.ebytes_club_cover_reposition_background_button
+.ebytes_club_cover_reposition_background_icon {
+    float: left;
+    height: 13px;
+    width: 14px;
+    margin: 0 4px 0 0;
+    background: url('../images/pc_background_icon.png') 0 -28px no-repeat;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options 
+li.ebytes_club_cover_reposition_background_container input{
+    border: none;
+    position: absolute;
+    left: -155px;
+    top: 0px;
+    width: 282px; 
+    cursor: pointer;
+    color: #FFF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE -7 */
+    -moz-opacity: 0; /* Netscape */
+    -khtml-opacity: 0; /* Safari 1.x */
+    opacity: 0; /* Good browsers */
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options 
+li.ebytes_club_cover_reposition_background_container iframe{
+    height: 0px;
+    width: 0px;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options 
+li.ebytes_club_cover_remove_background_container{
+    overflow: hidden;
+    position: relative;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options 
+li.ebytes_club_cover_remove_background_container
+.ebytes_club_cover_remove_background_button{
+    padding: 4px 0px 4px 12px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options 
+li.ebytes_club_cover_remove_background_container
+.ebytes_club_cover_remove_background_button
+.ebytes_club_cover_remove_background_icon {
+    float: left;
+    height: 14px;
+    width: 14px;
+    margin: 0 4px 0 0;
+    background: url('../images/pc_background_icon.png') 0 -40px no-repeat;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options 
+li.ebytes_club_cover_remove_background_container input{
+    border: none;
+    position: absolute;
+    left: -155px;
+    top: 0px;
+    width: 282px; 
+    cursor: pointer;
+    color: #FFF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE -7 */
+    -moz-opacity: 0; /* Netscape */
+    -khtml-opacity: 0; /* Safari 1.x */
+    opacity: 0; /* Good browsers */
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_background_container
+.ebytes_club_cover_background_menu_container 
+ul li.ebytes_club_cover_insert_background_caption_container
+ul.ebytes_club_cover_insert_background_options 
+li.ebytes_club_cover_remove_background_container iframe{
+    height: 0px;
+    width: 0px;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas{
+    border: 1px solid #C4CDE0;
+    border-bottom: none;
+    text-align: left;
+    padding: 0 0 15px 225px;
+    *padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas
+.ebytes_club_cover_top_info_container{
+    float: left;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas
+.ebytes_club_cover_top_info_container
+.ebytes_club_cover_club_name{
+    margin: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: arial;
+    text-transform: capitalize;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas
+.ebytes_club_cover_top_info_container
+.ebytes_club_cover_views_and_rate_container{
+    overflow: hidden;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas
+.ebytes_club_cover_top_info_container
+.ebytes_club_container_views_counter{
+    font-size: 14px;
+    font-weight: bold;
+    color: #3b5998;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas
+.ebytes_club_cover_top_info_container
+.votes_big{
+    color: #3b5998;
+}
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas
+.ebytes_club_cover_top_info_container
+.votes_big b{
+    color: #3b5998;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas
+.ebytes_club_cover_top_info_container
+.ebytes_club_cover_author_info{
+    font-size: 20px;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas
+.ebytes_club_cover_top_info_container
+.ebytes_club_cover_author_info a{
+    text-transform: capitalize;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas
+.ebytes_club_cover_club_actions{
+    float: right;
+    margin: 34px 10px 0 0;
+    overflow: hidden;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas
+.ebytes_club_cover_club_actions
+.ebytes_club_cover_actions_button_container{
+    cursor: pointer;
+    float: left;
+    /* border: 1px solid #C1C1C1; */
+    /* border-radius: 10px; */
+    /* background: #F79517; */
+    margin: 0 2px;
+    *display:inline;
+    border: 1px solid #C1C1C1;
+    *zoom:1;
+    background: #FFF; /* for non-css3 browsers*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#F1F1F1'); /* for IE */ 
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F1F1F1)); /* for webkit browsers */ 
+    background: -moz-linear-gradient(top,  #FFFFFF,  #F1F1F1); /* for firefox 3.6+ */ 
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas
+.ebytes_club_cover_club_actions
+.ebytes_club_cover_actions_button_container:hover{
+    border: 1px solid #A5A5A5;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, .3);
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas
+.ebytes_club_cover_club_actions
+.ebytes_club_cover_actions_button_container a{
+    color: #000;
+    text-decoration: none;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas
+.ebytes_club_cover_club_actions
+.ebytes_club_cover_actions_button_container div,
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas
+.ebytes_club_cover_club_actions
+.ebytes_club_cover_actions_button_container input{
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: arial;
+    padding: 5px 6px;
+    width: 100%;
+    *width: auto;
+    cursor: pointer;
+}
+
+.ebytes_club_cover_top_container 
+.ebytes_club_cover_top_club_datas
+.ebytes_club_cover_club_actions
+.ebytes_club_cover_actions_button_container div{
+    padding: 6px 10px;
+}
+
+.ebytes_club_cover_bottom_container{
+    margin: 5px 0 15px;
+    text-align: left;
+    border: 1px solid #C4CDC0;
+    border-top: none;
+}
+
+.ebytes_club_cover_bottom_container a{
+    color: #3b5998;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container{
+    margin-right: 580px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    /* float: left; */
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container.ebytes_club_cover_empty_addon_datas{
+    margin-right: 0px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container.ebytes_club_cover_one_addon_data{
+    margin-right: 150px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container.ebytes_club_cover_two_addon_data{
+    margin-right: 266px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container.ebytes_club_cover_three_addon_data{
+    margin-right: 392px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container.ebytes_club_cover_four_addon_data{
+    margin-right: 520px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container{
+    font-size: 11px;
+    font-family: arial;
+    margin: 0px;
+    /* height: 66px; */
+    padding: 5px 5px 5px 26px;
+    background: #F1F3F8;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container
+.ebytes_club_cover_informations_loader{
+    width: 16px;
+    height: 11px;
+    display: none;
+    float:left;
+    background: url('../images/loader.gif') 0 100% no-repeat;
+    margin-left: 3px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container
+.ebytes_club_cover_information_container{
+    color: #000;
+    padding: 0px;
+    margin: 2px 0 3px;
+    overflow: hidden;
+    height: 13px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container
+.ebytes_club_cover_insert_information_container{
+    color: #000;
+    padding: 0px;
+    margin: 2px 0 3px;
+    overflow: hidden;
+    height: 13px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container
+.club_information_separator{
+    margin-top: 3px;
+    height: 1px;
+    width: 100%;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container
+.ebytes_club_cover_nickname_container{
+    font-weight: bold;
+    font-size: 13px;
+    color: #272727;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container
+.ebytes_club_cover_insert_headline_container{
+    background: url('../images/info_icons.png') 0 0 no-repeat;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container
+.ebytes_club_cover_headline_container{
+    padding: 0 5px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container
+.ebytes_club_cover_insert_location_container{
+    background: url('../images/info_icons.png') 0 -13px no-repeat;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container
+.ebytes_club_cover_location_container{
+    background: url('../images/info_icons.png') 0 -67px no-repeat;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container
+.ebytes_club_cover_birthdate_container{
+    background: url('../images/info_icons.png') 0 -78px no-repeat;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container
+.ebytes_club_cover_insert_birthdate_container{
+    background: url('../images/info_icons.png') 0 -26px no-repeat;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container
+.ebytes_club_cover_gender_container{
+    background: url('../images/info_icons.png') 0 -92px no-repeat;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container
+.ebytes_club_cover_insert_gender_container{
+    background: url('../images/info_icons.png') 0 -40px no-repeat;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container
+.ebytes_club_cover_relationship_container{
+    background: url('../images/info_icons.png') 0 -118px no-repeat;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container
+.ebytes_club_cover_insert_relationship_container{
+    background: url('../images/info_icons.png') 0 -52px no-repeat;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container
+.ebytes_club_cover_informations_container a{
+    font-size: 11px;
+    font-family: arial;
+    color: #3b5998;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container 
+.ebytes_club_cover_info_inner_container{
+    margin: 0 10px 0 0;
+    border: 1px solid #E5E7EB;
+    border-left: 0px;
+    background: #FFF;
+    height: 76px;
+    overflow: hidden;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container.ebytes_club_cover_empty_addon_datas
+.ebytes_club_cover_info_inner_container{
+    margin: 0px;
+    border-right: 0px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container:hover
+.ebytes_club_cover_info_inner_container{
+    border: 1px solid #97a4c2;
+    border-left: none;
+    background: #FFF;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container.ebytes_club_cover_empty_addon_datas:hover
+.ebytes_club_cover_info_inner_container{
+    border-right: none;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container:hover
+.ebytes_club_cover_info_inner_container
+.ebytes_club_cover_informations_container{
+    /* margin: 2px 2px 2px 0; */
+    /* padding-top: 3px; */
+    /* padding-bottom: 3px; */
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_toggle_addon_datas_container{
+    float: right;
+    height: 78px;
+    width: 75px;
+    background: url('../images/hs_container.png') 0 0 no-repeat;
+    cursor: pointer;
+}
+
+.ebytes_club_cover_bottom_container
+.ebytes_club_cover_stream_player_container{
+    float: right;
+    height: 76px;
+    background: #F1F3F8;
+    border: 1px solid #E5E7EB;
+    width: 400px;
+    margin: 0 1px 0 3px;
+}
+
+.ebytes_club_cover_bottom_container
+.ebytes_club_cover_stream_player_container
+.ebytes_club_cover_stream_form_error_container{
+    display: none;
+}
+
+.ebytes_club_cover_bottom_container
+.ebytes_club_cover_stream_player_container:hover{
+    border: 1px solid #97a4c2;
+}
+
+.ebytes_club_cover_bottom_container
+.ebytes_club_cover_stream_player_container audio{
+    display: block;
+    width: 100%;
+}
+
+.ebytes_club_cover_bottom_container
+.ebytes_club_cover_stream_player_container
+.ebytes_club_cover_stream_form_container{
+    padding: 10px;
+}
+
+.ebytes_club_cover_bottom_container
+.ebytes_club_cover_stream_player_container
+.ebytes_club_cover_stream_form_container
+.ebytes_club_cover_stream_url_text_input{
+    height: 27px;
+    width: 250px;
+    font-size: 14px;
+}
+
+.ebytes_club_cover_bottom_container
+.ebytes_club_cover_stream_player_container
+.ebytes_club_cover_stream_form_container
+.ebytes_club_cover_stream_url_submit_button{
+    height: 35px;
+    width: 70px;
+    font-size: 14px;
+    background-color: #F0f0f0;
+    border: 1px solid #CED7EB;
+    cursor: pointer;
+}
+
+.ebytes_club_cover_bottom_container
+.ebytes_club_cover_stream_player_container
+.ebytes_club_cover_stream_form_container
+.ebytes_club_cover_stream_url_submit_button:hover{
+    border: 1px solid #97a4c2;
+}
+
+.ebytes_club_cover_bottom_container
+.ebytes_club_cover_stream_player_container
+.ebytes_club_cover_stream_form_container
+.ebytes_club_cover_stream_form_error_container{
+    color: red;
+    font-size: 10px;
+    margin: 0 0 1px;
+}
+
+.ebytes_club_cover_bottom_container
+.ebytes_club_cover_stream_player_container
+input{
+    height: 30px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_toggle_addon_datas_container.ebytes_club_cover_one_line_addon_data{
+    display: none;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_toggle_addon_datas_container
+.ebytes_club_cover_toggle_addon_datas_arrow_container{
+    width: 75px;
+    height: 78px;
+    background: url('../images/arrows.png') 3px -82px no-repeat;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_toggle_addon_datas_container.ebytes_hide_addon_datas_container
+.ebytes_club_cover_toggle_addon_datas_arrow_container{
+    background: url('../images/arrows.png') 3px 4px no-repeat;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_toggle_addon_datas_container:hover{
+    background: url('../images/hs_container_hovered.png') 0 0 no-repeat;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_addon_datas_container{
+    float: right;
+    width: 495px;
+    height: 103px;
+    overflow: hidden;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_addon_datas_container.ebytes_club_cover_no_addon_datas{
+    width: 0px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_addon_datas_container.ebytes_club_cover_one_addon_data{
+    width: 130px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_addon_datas_container.ebytes_club_cover_two_addon_data{
+    width: 252px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_addon_datas_container.ebytes_club_cover_three_addon_data{
+    width: 376px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_addon_datas_container.ebytes_club_cover_four_addon_data{
+    width: 500px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container 
+.ebytes_club_cover_info_link_container{
+    color: #3b5998;
+    margin: 1px 0 0 25px;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container 
+.ebytes_club_cover_info_link_container a{
+    color: #3b5998;
+    font-weight: bold;
+}
+
+.ebytes_club_cover_bottom_container 
+.ebytes_club_cover_info_container 
+.ebytes_club_cover_info_link_container a{
+    text-decoration: none;
+}
+
+/* bof the information popup container */
+.ebytes_club_cover_popup_information{
+    padding: 0px 0 0px 8px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    display: none;
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_arrow_container{
+    background: url('../images/arrow_to_left.png') 0 0 no-repeat;
+    width: 9px;
+    height: 16px;
+    position: absolute;
+    top: 8px;
+    left: 0px;
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_inner_container{
+    overflow: auto;
+    position: relative;
+    background: #FFF;
+    border: 1px solid #8c8c8c;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0px 3px 8px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0px 3px 8px rgba(0, 0, 0, .3);
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color='#969696', Strength=4, Direction=90)
+            progid:DXImageTransform.Microsoft.Shadow(Color='#969696', Strength=4, Direction=180);/* For IE 5.5 - 7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=180, Color='#969696')";/* For IE 8 */
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_inner_container
+.ebytes_club_cover_popup_form_container{
+    padding: 15px 0 0;
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_inner_container
+.ebytes_club_cover_popup_form_container
+.ebytes_club_cover_popup_form_errors_container{
+    padding: 0 15px 3px;
+    display: none;
+    color: #FF134A;
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_inner_container
+.ebytes_club_cover_popup_form_container
+.ebytes_club_cover_popup_input_container{
+    border: none;
+    padding: 0 15px 15px;
+    border-bottom: 1px solid #ccc;
+    width: 280px;
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_inner_container
+.ebytes_club_cover_popup_form_container
+.ebytes_club_cover_empty_input{
+    color: #777;
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_inner_container
+.ebytes_club_cover_popup_form_container
+.ebytes_club_cover_popup_input_container
+.ebytes_club_cover_popup_input_containers{
+    border: 1px solid #BDC7D8;
+    padding: 2px;
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_inner_container
+.ebytes_club_cover_popup_form_container
+.ebytes_club_cover_popup_input_container
+.ebytes_club_cover_popup_select_container{
+    border: 1px solid #BDC7D8;
+    padding: 0px;
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_inner_container
+.ebytes_club_cover_popup_form_container
+.ebytes_club_cover_popup_input_container
+.ebytes_club_cover_popup_select_container select{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0px;
+    width: 100%;
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_inner_container
+.ebytes_club_cover_popup_form_container
+.ebytes_club_cover_popup_input_container
+.ebytes_club_cover_country_selector_container{
+    margin: 0 0 2px;
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_inner_container
+.ebytes_club_cover_popup_form_container
+.ebytes_club_cover_popup_input_container
+.ebytes_club_cover_popup_input_containers input{
+    border: none;
+    outline: none;
+    width: 98%;
+    border: none;
+    font-size: 12px;
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_inner_container
+.ebytes_club_cover_popup_form_container
+.ebytes_club_cover_popup_submit_container{
+    padding: 6px 7px 6px 7px;
+    background-color: #F2F2F2;
+    overflow: hidden;
+    width: 296px;
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_inner_container
+.ebytes_club_cover_popup_form_container
+.ebytes_club_cover_popup_submit_container
+.ebytes_club_cover_popup_submit_button_container{
+    float: right;
+    *display: inline;
+    *zoom: 1;
+    border: 1px solid #29447e;
+    margin: 0 4px 0 0;
+    background: #5B74A8;
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_inner_container
+.ebytes_club_cover_popup_form_container
+.ebytes_club_cover_popup_submit_container
+.ebytes_club_cover_popup_submit_button_container input{
+    border: none;
+    background: #5B74A8;
+    color: #FFF;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-top: 1px solid #90ABF0;
+    height: 22px;
+    width: 100%;
+    *float: none;
+    *display: inline;
+    *zoom: 1;
+    *padding: 3px 10px 5px;
+    *width: auto;
+    cursor: pointer;
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_inner_container
+.ebytes_club_cover_popup_form_container
+.ebytes_club_cover_popup_submit_container
+.ebytes_club_cover_popup_close_button_container{
+    float: right;
+    border: 1px solid #999;
+    padding: 0px;
+    margin: 0 4px 0 0;
+}
+
+.ebytes_club_cover_popup_information
+.ebytes_club_cover_popup_inner_container
+.ebytes_club_cover_popup_form_container
+.ebytes_club_cover_popup_submit_container
+.ebytes_club_cover_popup_close_button_container input{
+    border: none;
+    background: #F8F8F8;
+    color: #000;
+    font-weight: bold;
+    padding: 3px 8px;
+    height: 22px;
+    cursor: pointer;
+}
+/* eof the popup information container */
+
+/* bof the member addon_datas container */
+.ebytes_club_cover_addon_data_container{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin: 0 2px 10px;
+}
+
+.ebytes_club_cover_addon_data_container_link{
+    cursor: pointer;
+}
+
+.ebytes_club_cover_addon_data_container a{
+    cursor: default;
+}
+
+.ebytes_club_cover_addon_data_container_link a{
+    cursor: pointer;
+}
+
+.ebytes_club_cover_addon_data_container
+.ebytes_club_cover_addon_data_inner_container{
+    width: 114px;
+    height: 76px;
+    background: #FFF;
+    border: 1px solid #E5E7EB;
+    overflow: hidden;
+}
+
+.ebytes_club_cover_addon_data_container
+.ebytes_club_cover_addon_data_inner_container
+.ebytes_club_cover_addon_data_inner_contents{
+    float: left;
+}
+
+.ebytes_club_cover_addon_data_container
+.ebytes_club_cover_addon_data_inner_container
+.ebytes_club_cover_addon_data_contents{
+    overflow: hidden;
+    background: #F1F3F8;
+    height: 76px;
+    width: 114px;
+}
+
+.ebytes_club_cover_addon_data_container
+.ebytes_club_cover_addon_data_inner_container
+.ebytes_club_cover_addon_data_contents.ebytes_club_cover_addon_data_empty_contents{
+    background: url('../images/empty_container.png') #F1F3F8 center center no-repeat;
+}
+
+.ebytes_club_cover_addon_data_container
+.ebytes_club_cover_addon_data_inner_container
+.ebytes_club_cover_common_addon_datas_multi_image
+.ebytes_club_cover_addon_data_inner_contents{
+    float: left;
+}
+
+.ebytes_club_cover_addon_data_container
+.ebytes_club_cover_addon_data_inner_container
+.ebytes_club_cover_addon_data_inner_contents img{
+    height: 38px;
+    width: 38px;
+}
+
+.ebytes_club_cover_addon_data_container
+.ebytes_club_cover_addon_data_inner_container
+.ebytes_club_cover_common_addon_datas_multi_image{
+    width: 228px;
+    margin-left: -57px;
+}
+
+.ebytes_club_cover_addon_data_container
+.ebytes_club_cover_addon_data_inner_container
+.ebytes_club_cover_common_addon_datas_single_image
+.ebytes_club_cover_addon_data_inner_contents img{
+    width: 114px;
+    height: 76px;
+}
+
+.ebytes_club_cover_addon_data_container
+.ebytes_club_cover_addon_data_inner_container
+.ebytes_club_cover_common_addon_datas_multi_image
+.ebytes_club_cover_addon_data_inner_contents img{
+    width: 114px;
+    height: 76px;
+}
+
+.ebytes_club_cover_addon_data_container:hover
+.ebytes_club_cover_addon_data_inner_container{
+    border: 1px solid #97a4c2;
+}
+
+.ebytes_club_cover_addon_data_container:hover
+.ebytes_club_cover_addon_data_inner_container
+.ebytes_club_cover_addon_data_contents{
+    /* margin: 2px 3px; */
+    /* height: 72px; */
+    /* width: 108px; */
+}
+
+.ebytes_club_cover_addon_data_container
+.ebytes_club_cover_addon_data_inner_container
+.ebytes_club_cover_common_addon_datas_multi_image{
+    margin-left: -59px;
+}
+
+.ebytes_club_cover_addon_data_container:hover
+.ebytes_club_cover_addon_data_inner_container
+.ebytes_club_cover_addon_data_inner_contents img{
+    /* height: 36px; */
+    /* width: 36px; */
+}
+
+.ebytes_club_cover_addon_data_container:hover
+.ebytes_club_cover_addon_data_inner_container
+.ebytes_club_cover_common_addon_datas_multi_image
+.ebytes_club_cover_addon_data_inner_contents img{
+    width: 114px;
+    height: 76px;
+}
+
+.ebytes_club_cover_addon_data_container:hover
+.ebytes_club_cover_addon_data_inner_container
+.ebytes_club_cover_common_addon_datas_single_image
+.ebytes_club_cover_addon_data_inner_contents img{
+    width: 114px;
+    height: 76px;
+}
+
+.ebytes_club_cover_addon_data_container
+.ebytes_club_cover_bottom_data_link_container{
+    color: #3b5998;
+    margin: 3px 0 0;
+}
+
+.ebytes_club_cover_addon_data_container
+.ebytes_club_cover_bottom_data_link_container a{
+    text-decoration: none;
+}
+
+.ebytes_club_cover_addon_data_container
+.ebytes_club_cover_bottom_data_link_container
+.ebytes_club_cover_addon_data_counter{
+    color: #999;
+}
+
+.ebytes_club_cover_addon_data_container
+.ebytes_club_cover_addon_data_link_container
+.ebytes_club_cover_addon_data_counter{
+    color: #000;
+}
+/* eof the member addon_datas container */
+
+/* bof the designs for the wall */
+.eb_club_cover_wall_event{
+    margin-left: 25px;
+    position: relative;
+}
+
+.eb_club_cover_wall_event 
+.eb_club_cover_wall_caption{
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    height: 30px;
+    line-height: 30px;
+}
+/* eof the designs for the wall */
+
+/* bof the designs for the fans popup container */
+.fan_popup_main_container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #FFF;
+    z-index: 999;
+    height: 140px; 
+    width: 333px;
+    border: 1px solid #E0E0E0;
+}
+
+.fan_popup_main_container
+.fan_popup_background_container{
+    height: 95px;
+    background: #F0F0F0;
+}
+
+.fan_popup_main_container
+.fan_popup_background_container_empty{
+    height: 95px;
+    background: url('../images/default_bg_small.jpg') center center no-repeat;
+}
+
+.fan_popup_main_container
+.fan_popup_thumbnail_container{
+    background: #FFF;
+    padding: 2px;
+    border: 1px solid #C7C7C7;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 10px;
+    top: 61px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.fan_popup_main_container
+.fan_popup_info_container{
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    font-family: arial;
+    margin-left: 86px;
+    margin-top: 10px;
+}
+
+.fan_popup_main_container
+.fan_popup_info_container a{
+    color: #2874A0;
+    text-decoration: none;
+}
+
+.fan_popup_main_container
+.eb_fan_popup_loader_container{
+    background: url('../images/large_loader.gif') #FFF center center no-repeat;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /* IE 8 */
+    filter: alpha(opacity=.60); /* IE -6 */
+    -moz-opacity: .60; /* Netscape */
+    -khtml-opacity: .60; /* Safari 1.x */
+    opacity: .60; /* Good browsers */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+/* eof the designs for the fans popup container */

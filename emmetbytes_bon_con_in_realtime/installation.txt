@@ -1,0 +1,6 @@
+HOW TO INSTALL THIS MODULE
+
+1. Create a folder/directory named EmmetBytes inside your sites boonex module folder
+2. Copy and paste this module inside the EmmetBytes folder/directory
+3. Go to the administration page and install the module just like any other default boonex modules.
+

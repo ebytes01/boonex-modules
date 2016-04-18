@@ -1,0 +1,55 @@
+<div class="main_ebytes_profile_cvr_container bx-def-margin-sec-leftright">
+    <div class="ebytes_profile_cvr_loader_container"></div>
+    <div class="ebytes_profile_cvr_notification_container">
+        <div class="ebytes_profile_cvr_notification_text_container"></div>
+        <div class="ebytes_profile_cvr_notification_background_container"></div>
+    </div>
+    __profile_cvr_top__
+    __profile_cvr_bottom__
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var _profileCvrParams = {
+            'baseUrl' : '__base_url__',
+            'backgroundFormUrl' : '__background_form_url__',
+            // top parameters
+            'topParams' : {
+                // for the profile cvr background
+                'backgroundMenuInsertCaption' : '__background_menu_insert_caption__',
+                'backgroundMenuChangeCaption' : '__background_menu_change_caption__',
+                'backgroundMenuCaptionContainer' : 'ebytes_profile_cvr_background_menu_caption',
+                'uploadBackgroundFormId' : 'ebytes_profile_cvr_upload_background_form',
+                'repositionBackgroundFormId' : 'ebytes_profile_cvr_reposition_background_form',
+                'removeBackgroundFormId' : 'ebytes_profile_cvr_remove_background_form',
+                'topContainerClass' : 'ebytes_profile_cvr_top_container',
+                'topContainerNoBackgroundClass' : 'ebytes_profile_cvr_top_container_no_background',
+                'backgroundContainerClass' : 'ebytes_profile_cvr_background_container',
+                'backgroundImageContainerClass' : 'ebytes_profile_cvr_background_image_container',
+                'backgroundMenuContainerClass' : 'ebytes_profile_cvr_background_menu_container',
+                'backgroundMainMenuContainerClass' : 'ebytes_profile_cvr_main_menu_container',
+                'backgroundMenuOptionsContainerClass' :  'ebytes_profile_cvr_insert_background_options',
+                'backgroundMenuOptionsLoaderContainerClass' : 'ebytes_profile_cvr_background_menu_options_loader_container',
+                'backgroundMenuOptionsUrl' : '__background_menu_options_url__',
+                'profileCvrActionsContainerClass' : 'ebytes_profile_cvr_profile_actions',
+                'profileCvrCommonActionsContainerClass' : 'ebytes_profile_cvr_common_actions_container',
+                // for the profile cvr thumbnials
+                'avatarContainerClass' : 'ebytes_member_avatar_container',
+                'avatarButtonContainerClass' : 'ebytes_profile_cvr_thumbnial_button_container',
+                'avatarUploaderFormId' : 'ebytes_profile_cvr_upload_avatar_form',
+                'avatarIframeId' : 'upload_avatar',
+                'avatarFormUrl' : '__avatar_form_url__'
+            },
+            // loader parameters
+            'loaderParams' : {
+                'loaderContainerClass' : 'ebytes_profile_cvr_loader_container'
+            },
+            // notifier parameters
+            'notifierParams' : {
+                'notifierContainerClass' : 'ebytes_profile_cvr_notification_container',
+                'notifierTextContainerClass' : 'ebytes_profile_cvr_notification_text_container'
+            }
+        }
+        var _ebProfileCvr = new EmmetBytesProfileCvr(_profileCvrParams);
+        _ebProfileCvr.init();
+    });
+</script>

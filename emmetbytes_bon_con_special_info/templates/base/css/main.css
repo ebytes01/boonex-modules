@@ -1,0 +1,237 @@
+/* BOF THE DESIGNS FOR THE COMMON CONTAINER */
+/* bof the designs for the common block main container */
+.emmetbytes_bon_con_special_info_common_main_container{
+    position: relative;
+    white-space: nowrap;
+    font-size: 12px;
+    font-family: arial;
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_loader_container{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: url('../images/loader.gif') center center no-repeat;
+    position: absolute;
+    z-index: 15;
+    top: 0;
+    left: 0;
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_loader_container .emmetbytes_bon_con_special_info_loader_background{
+    height: 100%;
+    width: 100%;
+    background: #FFF;
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=20)';
+    filter: alpha(opacity=20);
+    -moz-opacity: 0.2;
+    -khtml-opacity: 0.2;
+    opacity: 0.2;
+}
+
+/* bof the designs for the information block container */
+.emmetbytes_bon_con_special_info_common_info_container{
+    padding: 5px;
+    overflow: hidden;
+}
+
+.emmetbytes_bon_con_special_info_common_info_container .emmetbytes_bon_con_special_info_common_info_image_container{
+    background-position:center;
+    background-repeat:no-repeat;    
+    background-color: #F0F0F0;
+    border: 1px solid #E0E0E0;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.emmetbytes_bon_con_special_info_common_info_container .emmetbytes_bon_con_special_info_common_info_image_container img{
+    border: 6px solid #FFF;
+}
+
+.emmetbytes_bon_con_special_info_common_info_container .emmetbytes_bon_con_special_info_informations_container{
+    font-size: 12px;
+    padding-left: 20px;
+    white-space: normal;
+}
+
+.emmetbytes_bon_con_special_info_common_info_container .emmetbytes_bon_con_special_info_informations_container .emmetbytes_bon_con_special_info_information_container{
+    margin: 0 0 3px;
+}
+
+.emmetbytes_bon_con_special_info_common_info_container .emmetbytes_bon_con_special_info_informations_container .info_caption_container{
+    width: 80px;
+    padding: 0 4px 0 0;
+    float: left;
+    text-align: right;
+    font-weight: bold;
+}
+
+.emmetbytes_bon_con_special_info_common_info_container .emmetbytes_bon_con_special_info_informations_container .info_data_container{
+    margin-left: 85px;
+}
+
+.emmetbytes_bon_con_special_info_common_info_container .emmetbytes_bon_con_special_info_informations_container .info_data_container .clear_both{
+    clear: right;
+}
+
+.emmetbytes_bon_con_special_info_common_info_container .emmetbytes_bon_con_special_info_informations_container .emmetbytes_bon_con_special_info_info_rating .info_data_container{
+    *border: 1px solid #FFF; /* ie7 fix */ 
+}
+
+.emmetbytes_bon_con_special_info_common_info_container .emmetbytes_bon_con_special_info_informations_container .emmetbytes_bon_con_special_info_info_description .info_data_container{
+    margin-left: 10px;
+}
+
+.emmetbytes_bon_con_special_info_common_info_container .emmetbytes_bon_con_special_info_informations_container .emmetbytes_bon_con_special_info_info_rating .info_data_container .votes_small{
+    float: left;
+}
+
+/* bof the designs for the common thumbnail container */
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container{
+    position: relative;
+    white-space: nowrap;
+    margin: 4px 0 0;
+    padding: 5px 0;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #EFEFEF;
+    background: url('../images/pattern3.png') 0 0 repeat #FCFCFC;
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container .emmetbytes_bon_con_special_info_common_thumb_nav{
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container .emmetbytes_bon_con_special_info_common_thumb_nav.emmetbytes_bon_con_special_info_common_thumb_nav_prev{
+    top: 0px;
+    left: 0px;
+    background: url('../images/navigation.png') 0 -103px no-repeat;
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container .emmetbytes_bon_con_special_info_common_thumb_nav.emmetbytes_bon_con_special_info_common_thumb_nav_next{
+    top: 0px;
+    right: 0px;
+    background: url('../images/navigation.png') 0 0 no-repeat;
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container .emmetbytes_bon_con_special_info_common_thumbnails_inner_container{
+    position: relative;
+    left: 0px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container .emmetbytes_bon_con_special_info_common_thumbnail_container{
+    border: 1px solid #C7C7C7;
+    float: left;
+    padding: 3px;
+    margin: 0 2px;
+    font-family: arial;
+    font-size: 11px;
+    width: 165px;
+    text-align: left;
+    white-space: normal;
+    background: #F1F1F1;
+    background: #FFFFFF;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container .emmetbytes_bon_con_special_info_common_thumbnail_container.entries_loader{
+    background: url('../images/entry_loader.gif') center center no-repeat;
+    height: 35px;
+    float: left;
+    cursor: default;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container .emmetbytes_bon_con_special_info_common_thumbnail_container.active{
+    cursor: default;
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container .emmetbytes_bon_con_special_info_common_thumbnail_container .emmetbytes_bon_con_special_info_common_inner_thumbnail_container{
+    background: url('../images/pattern2.png') 0 0 repeat #FEFEFE;
+    border: 1px solid #E1E1E1;
+    overflow: hidden;
+    padding: 1px;
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container .emmetbytes_bon_con_special_info_common_thumbnail_container.active .emmetbytes_bon_con_special_info_common_inner_thumbnail_container{
+    background: url('../images/pattern1.png') 0 0 repeat #FEFEFE;
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container .emmetbytes_bon_con_special_info_common_thumbnail_container p{
+    color: #9C9C9C;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: arial;
+    float: left;
+    width: 75px;
+    word-wrap: break-word; 
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container .emmetbytes_bon_con_special_info_common_thumbnail_container.active p{
+    color: #006686; 
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container .emmetbytes_bon_con_special_info_common_thumbnail_container a{
+    color: #9C9C9C;
+    font-weight: bold;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container .emmetbytes_bon_con_special_info_common_thumbnail_container.active a{
+    color: #006686; 
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container .emmetbytes_bon_con_special_info_common_thumbnail_container .emmetbytes_bon_con_special_info_common_thumbnail_inner_container{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    float: left;
+    padding: 4px;
+    margin-right: 3px;
+}
+
+.emmetbytes_bon_con_special_info_common_main_container .emmetbytes_bon_con_special_info_common_thumbnails_container .emmetbytes_bon_con_special_info_common_thumbnail_container.active .emmetbytes_bon_con_special_info_common_thumbnail_inner_container{
+    border: 1px solid #B8B8B8;
+}
+
+/* bof the designs for the restricted container */
+.emmetbytes_bon_con_special_info_restricted_info_container .emmetbytes_bon_con_special_info_restricted_image_container{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #F0F0F0;
+    border: 1px solid #E0E0E0;
+    margin: 0 5px;
+    float: left;
+}
+
+.emmetbytes_bon_con_special_info_restricted_info_container .emmetbytes_bon_con_special_info_restricted_image_container img{
+    border: 6px solid #FFF;
+}
+
+.emmetbytes_bon_con_special_info_restricted_info_container .emmetbytes_bon_con_special_info_restricted_access_text{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0098C0;
+}
+/* eof the designs for the restricted container */
+/* EOF THE DESIGNS FOR THE COMMON CONTAINER */
+.clear_both{
+    clear: both;
+    height: 0px;
+    margin: 0px;
+    border: 0px;
+}

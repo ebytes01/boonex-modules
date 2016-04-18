@@ -1,0 +1,96 @@
+<!--display the image-->
+<div class="emmetbytes_bon_con_special_info_common_info_image_container" style='background-image: url("__image_url__");'>
+    <a href='__module_uri__'><img src="__spacer__" alt="__nickname__" height='__height__px;' width='__width__px;' /></a>
+</div>
+<div class='emmetbytes_bon_con_special_info_informations_container' style='margin-left: __width__px;'> 
+    <!--display the title-->
+    <bx_if:display_title>
+        <div class="emmetbytes_bon_con_special_info_info_title emmetbytes_bon_con_special_info_information_container">
+            <div class="emmetbytes_bon_con_special_info_info_title_caption info_caption_container">__title_caption__ : </div>
+            <div class='info_data_container'><a href="__module_uri__">__title__</a></div>
+        </div>
+    </bx_if:display_title>
+    <!--display the sites url-->
+    <bx_if:display_sites_url>
+        <div class="emmetbytes_bon_con_special_info_info_sites_url emmetbytes_bon_con_special_info_information_container">
+            <div class="emmetbytes_bon_con_special_info_info_sites_url_caption info_caption_container">__sites_url_caption__ : </div>
+            <div class='info_data_container'><a href="__sites_url_link__" target="blank">__sites_url_title__</a></div>
+        </div>
+    </bx_if:display_sites_url>
+    <!--display the author-->
+    <bx_if:display_author>
+        <div class="emmetbytes_bon_con_special_info_info_author emmetbytes_bon_con_special_info_information_container">
+            <div class="emmetbytes_bon_con_special_info_info_author_caption info_caption_container">__author_caption__ : </div>
+            <div class='info_data_container'><a href="__author_url__">__author_username__</a></div>
+        </div>
+    </bx_if:display_author>
+    <!--display the album-->
+    <bx_if:display_album>
+        <div class="emmetbytes_bon_con_special_info_info_album emmetbytes_bon_con_special_info_information_container">
+            <div class="emmetbytes_bon_con_special_info_info_album_caption info_caption_container">__album_caption__ : </div>
+            <div class='info_data_container'><a href="__album_url__">__album_title__</a></div>
+        </div>
+    </bx_if:display_album>
+    <!--display the rating-->
+    <bx_if:display_rating>
+        <div class="emmetbytes_bon_con_special_info_info_rating emmetbytes_bon_con_special_info_information_container">
+            <div class="emmetbytes_bon_con_special_info_info_rating_caption info_caption_container">__rating_caption__ : </div>
+            <div class='info_data_container'>
+                __rating__
+            </div>
+            <br />
+        </div>
+    </bx_if:display_rating>
+    <!--display the location-->
+    <bx_if:display_location>
+        <div class="emmetbytes_bon_con_special_info_info_location emmetbytes_bon_con_special_info_information_container">
+            <div class="emmetbytes_bon_con_special_info_info_location_caption info_caption_container">__location_caption__ : </div>
+            <div class='info_data_container'>
+                __location__
+            </div>
+        </div>
+    </bx_if:display_location>
+    <!--display the tags-->
+    <bx_if:display_tags>
+        <div class="emmetbytes_bon_con_special_info_info_tags emmetbytes_bon_con_special_info_information_container">
+            <div class="emmetbytes_bon_con_special_info_info_tags_caption info_caption_container">__tags_caption__ : </div>
+            <div class='info_data_container'>
+                __tags__
+            </div>
+        </div>
+    </bx_if:display_tags>
+    <!--display the categories-->
+    <bx_if:display_categories>
+        <div class="emmetbytes_bon_con_special_info_info_categories emmetbytes_bon_con_special_info_information_container">
+            <div class="emmetbytes_bon_con_special_info_info_categories_caption info_caption_container">__categories_caption__ : </div>
+            <div class='info_data_container'>
+                __categories__
+            </div>
+        </div>
+    </bx_if:display_categories>
+    <!--display the date start-->
+    <bx_if:display_date_start>
+        <div class="emmetbytes_bon_con_special_info_info_date_start emmetbytes_bon_con_special_info_information_container">
+            <div class="emmetbytes_bon_con_special_info_info_date_start_caption info_caption_container">__date_start_caption__ : </div>
+            <div class='info_data_container'>
+                __entry_start_formatted__ ( __entry_start_date_ago__ ) 
+            </div>
+        </div>
+    </bx_if:display_date_start>
+    <!--display the date end-->
+    <bx_if:display_date_end>
+        <div class="emmetbytes_bon_con_special_info_info_date_end_bon_con_special_info_information_container">
+            <div class="emmetbytes_bon_con_special_info_info_date_end_caption info_caption_container">__date_end_caption__ : </div>
+            <div class='info_data_container'>
+                __entry_end_formatted__ ( __entry_end_date_ago__ ) 
+            </div>
+        </div>
+    </bx_if:display_date_end>
+    <!--display the description-->
+    <bx_if:display_description>
+        <div class="emmetbytes_bon_con_special_info_info_description emmetbytes_bon_con_special_info_information_container">
+            <div class="emmetbytes_bon_con_special_info_info_desc_caption info_caption_container"> __desc_caption__ : </div>
+            <div class='info_data_container'>__description__</div>
+        </div>
+    </bx_if:display_description>
+</div>

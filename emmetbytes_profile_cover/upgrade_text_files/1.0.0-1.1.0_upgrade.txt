@@ -1,0 +1,14 @@
+Thanks again for purchasing this module. :)
+
+/** UPGRADING FROM 1.0.0 - 1.1.0 **/
+- Please backup your old module when you have done some changes on it.
+- Replace all the files inside emmetbytes_profile_cover/classes
+- Replace the install/config.php file
+- Replace the install/sql/install.sql file
+- Replace the js/EmmetBytesProfileCover.js file
+- Replace the templates/base/css/main.css file
+- Replace the templates/base/ebytes_profile_cover_bottom_container.html file
+- Replace the templates/base/ebytes_profile_cover_member_activities_container.html file
+- Upload the 100to110_upgrade.php file in your web host root folder and run http://{your_sites_name}/100to110_upgrade.php
+- Remove the 100to110_upgrade.php file
+- Clear all your websites cache.

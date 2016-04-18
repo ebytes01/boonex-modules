@@ -1,0 +1,15 @@
+<div class='ebytes_profile_cover_popup_input_container'>
+    <span class='ebytes_profile_cover_popup_caption_container'>__help_caption__ : </span>
+    <div class='ebytes_profile_cover_popup_input_containers'> <input readonly='readonly' value='yy-mm-dd' type='text' id='birthdate' name='__birthdate_input_name__' class='form_input_date'/> </div>
+</div>
+<script type="text/javascript">
+    $(function(){
+        $('#birthdate').datepicker({
+            changeYear: true,
+            dateFormat: 'yy-mm-dd',
+            defaultDate: -8030,
+            beforeShow: function() {$('#ui-datepicker-div').css({'zIndex' : '999'}); },
+            yearRange: ($(this).attr('min') ? $(this).attr('min') : '1900') + ':' + ($(this).attr('max') ? $(this).attr('max') : '2100')
+        });
+    })
+</script>

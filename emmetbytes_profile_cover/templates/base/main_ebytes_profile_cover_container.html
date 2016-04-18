@@ -1,0 +1,79 @@
+<div class="main_ebytes_profile_cover_container bx-def-margin-sec-leftright">
+    <div class="ebytes_profile_cover_loader_container"></div>
+    <div class="ebytes_profile_cover_notification_container">
+        <div class="ebytes_profile_cover_notification_text_container"></div>
+        <div class="ebytes_profile_cover_notification_background_container"></div>
+    </div>
+    __profile_cover_top__
+    __profile_cover_bottom__
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var _profileCoverParams = {
+            'baseUrl' : '__base_url__',
+            'backgroundFormUrl' : '__background_form_url__',
+            // top parameters
+            'topParams' : {
+                // for the profile cover background
+                'backgroundMenuInsertCaption' : '__background_menu_insert_caption__',
+                'backgroundMenuChangeCaption' : '__background_menu_change_caption__',
+                'backgroundMenuCaptionContainer' : 'ebytes_profile_cover_background_menu_caption',
+                'uploadBackgroundFormId' : 'ebytes_profile_cover_upload_background_form',
+                'repositionBackgroundFormId' : 'ebytes_profile_cover_reposition_background_form',
+                'removeBackgroundFormId' : 'ebytes_profile_cover_remove_background_form',
+                'topContainerClass' : 'ebytes_profile_cover_top_container',
+                'topContainerNoBackgroundClass' : 'ebytes_profile_cover_top_container_no_background',
+                'backgroundContainerClass' : 'ebytes_profile_cover_background_container',
+                'backgroundImageContainerClass' : 'ebytes_profile_cover_background_image_container',
+                'backgroundMenuContainerClass' : 'ebytes_profile_cover_background_menu_container',
+                'backgroundMainMenuContainerClass' : 'ebytes_profile_cover_main_menu_container',
+                'backgroundMenuOptionsContainerClass' :  'ebytes_profile_cover_insert_background_options',
+                'backgroundMenuOptionsLoaderContainerClass' : 'ebytes_profile_cover_background_menu_options_loader_container',
+                'backgroundMenuOptionsUrl' : '__background_menu_options_url__',
+                'profileCoverActionsContainerClass' : 'ebytes_profile_cover_profile_actions',
+                'profileCoverCommonActionsContainerClass' : 'ebytes_profile_cover_common_actions_container',
+                // for the profile cover thumbnials
+                'avatarContainerClass' : 'ebytes_member_avatar_container',
+                'avatarButtonContainerClass' : 'ebytes_profile_cover_thumbnial_button_container',
+                'avatarUploaderFormId' : 'ebytes_profile_cover_upload_avatar_form',
+                'avatarIframeId' : 'upload_avatar',
+                'avatarFormUrl' : '__avatar_form_url__'
+            },
+            // bottom parameters
+            'bottomParams' : {
+                'bottomContainerClass' : 'ebytes_profile_cover_bottom_container',
+                'bottomDataContainerClass' : 'ebytes_profile_cover_bottom_data_container',
+                'bottomDataLinkClass' : 'ebytes_profile_cover_bottom_data_link_container',
+                'mainPopupContainer' : 'ebytes_profile_cover_popup_information',
+                'innerPopupContainer' : 'ebytes_profile_cover_popup_mid_container',
+                'informationsContainer' : 'ebytes_profile_cover_informations_container',
+                'memberActivitiesContainerClass' : 'ebytes_profile_cover_activities_container',
+                'memberActivitiesMainContainerClass' : 'ebytes_profile_cover_member_activities_container',
+                'friendsContainer' : {
+                    'mainContainer' : 'ebytes_profile_cover_member_friends_container',
+                    'perFriend' : 'ebytes_profile_cover_friend_container'
+                },
+                'infosParams' : {
+                    'headlineContainerId' : 'ebytes_profile_cover_insert_headline_container',
+                    'locationContainerId' : 'ebytes_profile_cover_insert_location_container',
+                    'birthdateContainerId' : 'ebytes_profile_cover_insert_birthdate_container',
+                    'genderContainerId' : 'ebytes_profile_cover_insert_gender_container',
+                    'relationshipContainerId' : 'ebytes_profile_cover_insert_relationship_container'
+                },
+                'toggleActvitiesContainer' : 'ebytes_profile_cover_toggle_activities_container',
+                'toggleActivitiesArrowContainer' : 'ebytes_profile_cover_toggle_activities_arrow_container'
+            },
+            // loader parameters
+            'loaderParams' : {
+                'loaderContainerClass' : 'ebytes_profile_cover_loader_container'
+            },
+            // notifier parameters
+            'notifierParams' : {
+                'notifierContainerClass' : 'ebytes_profile_cover_notification_container',
+                'notifierTextContainerClass' : 'ebytes_profile_cover_notification_text_container'
+            }
+        }
+        var _ebProfileCover = new EmmetBytesProfileCover(_profileCoverParams);
+        _ebProfileCover.init();
+    });
+</script>

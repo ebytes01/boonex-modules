@@ -1,0 +1,90 @@
+<div class="main_ebytes_club_cover_container">
+    <div class="ebytes_club_cover_loader_container"></div>
+    <div class="ebytes_club_cover_notification_container">
+        <div class="ebytes_club_cover_notification_text_container"></div>
+        <div class="ebytes_club_cover_notification_background_container"></div>
+    </div>
+    __club_cover_top__
+    __club_cover_bottom__
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var _clubCoverParams = {
+            'clubId' : '__club_id__',
+            'baseUrl' : '__base_url__',
+            'backgroundFormUrl' : '__background_form_url__',
+            // top parameters
+            'topParams' : {
+                // for the club cover background
+                'backgroundMenuInsertCaption' : '__background_menu_insert_caption__',
+                'backgroundMenuChangeCaption' : '__background_menu_change_caption__',
+                'backgroundMenuCaptionContainer' : 'ebytes_club_cover_background_menu_caption',
+                'uploadBackgroundFormId' : 'ebytes_club_cover_upload_background_form',
+                'repositionBackgroundFormId' : 'ebytes_club_cover_reposition_background_form',
+                'removeBackgroundFormId' : 'ebytes_club_cover_remove_background_form',
+                'topContainerClass' : 'ebytes_club_cover_top_container',
+                'topContainerNoBackgroundClass' : 'ebytes_club_cover_top_container_no_background',
+                'backgroundContainerClass' : 'ebytes_club_cover_background_container',
+                'backgroundImageContainerClass' : 'ebytes_club_cover_background_image_container',
+                'backgroundMenuContainerClass' : 'ebytes_club_cover_background_menu_container',
+                'backgroundMainMenuContainerClass' : 'ebytes_club_cover_main_menu_container',
+                'backgroundMenuOptionsContainerClass' :  'ebytes_club_cover_insert_background_options',
+                'backgroundMenuOptionsLoaderContainerClass' : 'ebytes_club_cover_background_menu_options_loader_container',
+                'backgroundMenuOptionsUrl' : '__background_menu_options_url__',
+                'clubCoverActionsContainerClass' : 'ebytes_club_cover_club_actions',
+                'clubCoverCommonActionsContainerClass' : 'ebytes_club_cover_common_actions_container',
+                // for the club cover logo
+                'logoContainerClass' : 'ebytes_club_logo_container',
+                'logoButtonContainerClass' : 'ebytes_club_cover_logo_button_container',
+                'logoUploaderFormId' : 'ebytes_club_cover_upload_logo_form',
+                'logoIframeId' : 'upload_logo',
+                'logoFormUrl' : '__logo_form_url__'
+            },
+            // bottom parameters
+            'bottomParams' : {
+                'bottomContainerClass' : 'ebytes_club_cover_bottom_container',
+                'bottomDataContainerClass' : 'ebytes_club_cover_bottom_data_container',
+                'bottomDataLinkClass' : 'ebytes_club_cover_bottom_data_link_container',
+                'mainPopupContainer' : 'ebytes_club_cover_popup_information',
+                'innerPopupContainer' : 'ebytes_club_cover_popup_mid_container',
+                'informationsContainer' : 'ebytes_club_cover_informations_container',
+                'clubAddonDatasContainerClass' : 'ebytes_club_cover_addon_datas_container',
+                'clubAddonDatasMainContainerClass' : 'ebytes_club_cover_club_addon_datas_container',
+                'fansContainer' : {
+                    'mainContainer' : 'ebytes_club_cover_club_fans_container',
+                    'perFan' : 'ebytes_club_cover_fan_container'
+                },
+                'infosParams' : {
+                    'showMoreInformationId' : 'ebytes_club_cover_show_more_informations_button',
+                    'showMoreInformationCaption' : '__show_more_information_caption__',
+                    'showLessInformationCaption' : '__show_less_information_caption__',
+                    'informationsContainerId' : 'ebytes_club_cover_info_inner_container',
+                    'businessWebsiteContainerId' : 'ebytes_club_cover_insert_business_website_container',
+                    'businessEmailContainerId' : 'ebytes_club_cover_insert_business_email_container',
+                    'businessTelephoneContainerId' : 'ebytes_club_cover_insert_business_telephone_container',
+                    'businessFaxContainerId' : 'ebytes_club_cover_insert_business_fax_container',
+                    'clubCapacityContainerId' : 'ebytes_club_cover_insert_club_capacity_container',
+                    'clubChargeContainerId' : 'ebytes_club_cover_insert_charge_container',
+                    'clubEntryAgeContainerId' : 'ebytes_club_cover_insert_entry_age_container',
+                    'clubHoursContainerId' : 'ebytes_club_cover_insert_club_hours_container',
+                    'clubVIPAreaContainerId' : 'ebytes_club_cover_insert_club_vip_area_container',
+                    'clubBarTypeContainerId' : 'ebytes_club_cover_insert_bar_type_container',
+                    'clubFoodServiceContainerId' : 'ebytes_club_cover_insert_club_food_service_container',
+                },
+                'toggleActvitiesContainer' : 'ebytes_club_cover_toggle_addon_datas_container',
+                'toggleAddonDatasArrowContainer' : 'ebytes_club_cover_toggle_addon_datas_arrow_container'
+            },
+            // loader parameters
+            'loaderParams' : {
+                'loaderContainerClass' : 'ebytes_club_cover_loader_container'
+            },
+            // notifier parameters
+            'notifierParams' : {
+                'notifierContainerClass' : 'ebytes_club_cover_notification_container',
+                'notifierTextContainerClass' : 'ebytes_club_cover_notification_text_container'
+            }
+        }
+        var _ebClubCover = new EmmetBytesClubCover(_clubCoverParams);
+        _ebClubCover.init();
+    });
+</script>

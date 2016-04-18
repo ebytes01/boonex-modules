@@ -1,0 +1,759 @@
+.eb_profile_cvr{
+    text-align: center;
+    margin: 10px auto 10px;
+    position: relative;
+    z-index: 980;
+}
+
+.main_ebytes_profile_cvr_container{
+    background: #FFF;
+    position: relative;
+}
+
+.main_ebytes_profile_cvr_container
+.ebytes_profile_cvr_loader_container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 970;
+    display: none;
+    background: url('../images/large_loader.gif') center center #FFF no-repeat;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /* IE 8 */
+    filter: alpha(opacity=60); /* IE -6 */
+    -moz-opacity: .60; /* Netscape */
+    -khtml-opacity: .60; /* Safari 1.x */
+    opacity: .60; /* Good browsers */
+}
+
+.main_ebytes_profile_cvr_container
+.ebytes_profile_cvr_notification_container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    *width: auto;
+    z-index: 980;
+    display: none;
+}
+
+.main_ebytes_profile_cvr_container
+.ebytes_profile_cvr_notification_container
+.ebytes_profile_cvr_notification_background_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 976;
+    background: #FFF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /* IE 8 */
+    filter: alpha(opacity=60); /* IE -6 */
+    -moz-opacity: .60; /* Netscape */
+    -khtml-opacity: .60; /* Safari 1.x */
+    opacity: .60; /* Good browsers */
+}
+
+.main_ebytes_profile_cvr_container
+.ebytes_profile_cvr_notification_container
+.ebytes_profile_cvr_notification_text_container{
+    margin: 20px auto 0;
+    border: 1px solid #B80000;
+    display: inline-block;
+    background: #FFF;
+    padding: 10px 15px;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    z-index: 979;
+}
+
+.ebytes_profile_cvr_top_container{
+    position: relative;
+    height: 345px;
+}
+
+.ebytes_profile_cvr_top_container.ebytes_profile_cvr_top_container_no_background{
+    position: relative;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_thumbnail_container{
+    position: absolute;
+    border: 1px solid #C7C7C7;
+    background: #FFF;
+    bottom: 0px;
+    left: 30px;
+    padding: 4px;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_thumbnail_container 
+.ebytes_member_avatar_container{
+    position: relative;
+    height: 166px;
+    width: 166px;
+    background: url('../images/pattern2.png') 0 0 repeat;
+    overflow: hidden;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_thumbnail_container 
+.ebytes_profile_cvr_thumbnial_button_container{
+    display: none;
+    position: absolute;
+    float: left;
+    bottom: 0px;
+    width: 100%;
+    z-index: 980;
+    cursor: pointer;
+    *zoom: 1;
+    *width: auto;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_thumbnail_container:hover
+.ebytes_profile_cvr_thumbnial_button_container{
+    display: block;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_thumbnail_container 
+.ebytes_profile_cvr_thumbnial_button_container
+.ebytes_profile_cvr_thumbnail_button_inner_container{
+    background: #FFF;
+    border: 1px solid #717171;
+    margin: 0 auto 2px;
+    font-weight: bold;
+    font-size: 13px;
+    height: 16px;
+    display: inline-block;
+    padding: 2px 6px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_thumbnail_container 
+.ebytes_profile_cvr_thumbnial_button_container
+.ebytes_profile_cvr_thumbnail_button_inner_container iframe{
+    height: 0px;
+    width: 0px;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_thumbnail_container 
+.ebytes_profile_cvr_thumbnial_button_container
+.ebytes_profile_cvr_thumbnail_button_inner_container input{
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 245px;
+    cursor: pointer;
+    font-size: 80px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE -7 */
+    -moz-opacity: 0; /* Netscape */
+    -khtml-opacity: 0; /* Safari 1.x */
+    opacity: 0; /* Good browsers */
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_thumbnail_container 
+.ebytes_profile_cvr_thumbnial_button_container
+.ebytes_profile_cvr_thumbnail_button_inner_container input.eb_profile_cvr_background_image{
+    border: none;
+    left: -114px;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container{
+    background: #F0F0F0;
+    position: relative;
+}
+
+.ebytes_profile_cvr_top_container.ebytes_profile_cvr_top_container_no_background 
+.ebytes_profile_cvr_background_container{
+    background: url('../images/default_bg.jpg') center center no-repeat;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_image_container{
+    height: 285px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container{
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container:hover
+.ebytes_profile_cvr_background_menu_container{
+    display: block;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container{
+    list-style: none;
+    padding: 4px 22px 4px 0px;
+    border: 1px solid #717171;
+    cursor: pointer;
+    font-weight: bold;
+    color: #212121;
+    background: #FFF;
+    position: relative;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+.ebytes_profile_cvr_background_menu_options_loader_container{
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    width: 16px;
+    height: 11px;
+    background: url('../images/loader.gif') 0 0 no-repeat;
+    display: none;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container 
+span.ebytes_profile_cvr_insert_background_icon_container{
+    background: url('../images/pc_background_icon.png') 0 0 no-repeat;
+    height: 14px;
+    width: 14px;
+    margin: 0px 4px;
+    float: left;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options{
+    position: absolute;
+    color: #000;
+    left: -1px;
+    margin: 4px 0 0;
+    padding: 0px;
+    border: 1px solid #717171;
+    width: 150px;
+    overflow: hidden;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options li{
+    display: block;
+    list-style: none;
+    float: left;
+    margin: 0px;
+    width: 150px;
+    text-align: left;
+    background: #FFF;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options 
+li.ebytes_profile_cvr_upload_background_container{
+    background: #FFF;
+    overflow: hidden;
+    position: relative;
+    height: 22px;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options 
+li.ebytes_profile_cvr_upload_background_container
+.ebytes_profile_cvr_upload_background_button{
+    padding: 4px 0px 4px 12px;
+    margin: 0px;
+    cursor: pointer;
+    height: 22px;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options 
+li.ebytes_profile_cvr_upload_background_container
+.ebytes_profile_cvr_upload_background_button
+.ebytes_profile_cvr_upload_background_icon{
+    float: left;
+    height: 14px;
+    width: 14px;
+    margin: 0 4px 0 0;
+    background: url('../images/pc_background_icon.png') 0 -14px no-repeat;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options 
+li.ebytes_profile_cvr_upload_background_container input{
+    border: none;
+    font-size: 100px;
+    position: absolute;
+    top: 0;
+    left: -115px;
+    top: 0px;
+    width: 282px; 
+    cursor: pointer;
+    color: #FFF;
+    border: 1px solid red;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE -7 */
+    -moz-opacity: 0; /* Netscape */
+    -khtml-opacity: 0; /* Safari 1.x */
+    opacity: 0; /* Good browsers */
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options 
+li.ebytes_profile_cvr_upload_background_container iframe{
+    height: 0px;
+    width: 0px;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options 
+li.ebytes_profile_cvr_reposition_background_container{
+    overflow: hidden;
+    position: relative;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options 
+li.ebytes_profile_cvr_reposition_background_container
+.ebytes_profile_cvr_reposition_background_button{
+    padding: 4px 0px 4px 12px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options 
+li.ebytes_profile_cvr_reposition_background_container
+.ebytes_profile_cvr_reposition_background_button
+.ebytes_profile_cvr_reposition_background_icon {
+    float: left;
+    height: 13px;
+    width: 14px;
+    margin: 0 4px 0 0;
+    background: url('../images/pc_background_icon.png') 0 -28px no-repeat;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options 
+li.ebytes_profile_cvr_reposition_background_container input{
+    border: none;
+    position: absolute;
+    left: -155px;
+    top: 0px;
+    width: 282px; 
+    cursor: pointer;
+    color: #FFF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE -7 */
+    -moz-opacity: 0; /* Netscape */
+    -khtml-opacity: 0; /* Safari 1.x */
+    opacity: 0; /* Good browsers */
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options 
+li.ebytes_profile_cvr_reposition_background_container iframe{
+    height: 0px;
+    width: 0px;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options 
+li.ebytes_profile_cvr_remove_background_container{
+    overflow: hidden;
+    position: relative;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options 
+li.ebytes_profile_cvr_remove_background_container
+.ebytes_profile_cvr_remove_background_button{
+    padding: 4px 0px 4px 12px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options 
+li.ebytes_profile_cvr_remove_background_container
+.ebytes_profile_cvr_remove_background_button
+.ebytes_profile_cvr_remove_background_icon {
+    float: left;
+    height: 14px;
+    width: 14px;
+    margin: 0 4px 0 0;
+    background: url('../images/pc_background_icon.png') 0 -40px no-repeat;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options 
+li.ebytes_profile_cvr_remove_background_container input{
+    border: none;
+    position: absolute;
+    left: -155px;
+    top: 0px;
+    width: 282px; 
+    cursor: pointer;
+    color: #FFF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE -7 */
+    -moz-opacity: 0; /* Netscape */
+    -khtml-opacity: 0; /* Safari 1.x */
+    opacity: 0; /* Good browsers */
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_background_container
+.ebytes_profile_cvr_background_menu_container 
+ul li.ebytes_profile_cvr_insert_background_caption_container
+ul.ebytes_profile_cvr_insert_background_options 
+li.ebytes_profile_cvr_remove_background_container iframe{
+    height: 0px;
+    width: 0px;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_top_profile_datas{
+    border: 1px solid #C4CDE0;
+    border-bottom: none;
+    text-align: left;
+    padding: 0 0 0 225px;
+    *padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_top_profile_datas
+.ebytes_profile_cvr_profile_name{
+    float: left;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+    text-transform: capitalize;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_top_profile_datas
+.ebytes_profile_cvr_profile_actions{
+    float: right;
+    margin: 15px 10px 0 0;
+    overflow: hidden;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_top_profile_datas
+.ebytes_profile_cvr_profile_actions
+.ebytes_profile_cvr_actions_button_container{
+    cursor: pointer;
+    float: left;
+    border: 1px solid #C1C1C1;
+    background: #FFF; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#F1F1F1'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F1F1F1)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #FFFFFF,  #F1F1F1); /* for firefox 3.6+ */
+    margin: 0 2px;
+    *display:inline;
+    *zoom:1;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_top_profile_datas
+.ebytes_profile_cvr_profile_actions
+.ebytes_profile_cvr_actions_button_container:hover{
+    border: 1px solid #A5A5A5;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, .3);
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_top_profile_datas
+.ebytes_profile_cvr_profile_actions
+.ebytes_profile_cvr_actions_button_container a{
+    color: #000;
+    text-decoration: none;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_top_profile_datas
+.ebytes_profile_cvr_profile_actions
+.ebytes_profile_cvr_actions_button_container div,
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_top_profile_datas
+.ebytes_profile_cvr_profile_actions
+.ebytes_profile_cvr_actions_button_container input{
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: arial;
+    padding: 5px 6px;
+    width: 100%;
+    *width: auto;
+    cursor: pointer;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_top_profile_datas
+.ebytes_profile_cvr_profile_actions
+.ebytes_profile_cvr_actions_button_container div{
+    padding: 6px 5px 6px 36px;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_top_profile_datas
+.ebytes_profile_cvr_profile_actions
+.ebytes_profile_cvr_actions_button_container 
+div.ebytes_profile_cvr_view_profile{
+    background: url('../images/button_icons.png') 4px 3px no-repeat;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_top_profile_datas
+.ebytes_profile_cvr_profile_actions
+.ebytes_profile_cvr_actions_button_container 
+div.ebytes_profile_cvr_send_message{
+    background: url('../images/button_icons.png') 4px -26px no-repeat;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_top_profile_datas
+.ebytes_profile_cvr_profile_actions
+.ebytes_profile_cvr_actions_button_container 
+div.ebytes_profile_cvr_remove_friend{
+    background: url('../images/button_icons.png') 4px -54px no-repeat;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_top_profile_datas
+.ebytes_profile_cvr_profile_actions
+.ebytes_profile_cvr_actions_button_container 
+div.ebytes_profile_cvr_add_friend{
+    background: url('../images/button_icons.png') 4px -82px no-repeat;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_top_profile_datas
+.ebytes_profile_cvr_profile_actions
+.ebytes_profile_cvr_actions_button_container 
+div.ebytes_profile_cvr_cancel_friend_request{
+    background: url('../images/button_icons.png') 4px -139px no-repeat;
+}
+
+.ebytes_profile_cvr_top_container 
+.ebytes_profile_cvr_top_profile_datas
+.ebytes_profile_cvr_profile_actions
+.ebytes_profile_cvr_actions_button_container 
+div.ebytes_profile_cvr_accept_friend_request{
+    background: url('../images/button_icons.png') 4px -110px no-repeat;
+}
+
+.ebytes_profile_cvr_bottom_container{
+    margin-top: 5px;
+    background: #F0F0F0;
+    border: 1px solid #C4CDE0;
+    border-top: none;
+    position: relative;
+    z-index: 980;
+}
+
+.ebytes_profile_cvr_bottom_container
+.ebytes_profile_cvr_bottom_menus_container{
+    padding: 0px;
+    margin: 0px;
+    height: 25px;
+    *height: 26px;
+}
+
+.ebytes_profile_cvr_bottom_container
+.ebytes_profile_cvr_bottom_menus_container
+.ebytes_profile_cvr_bottom_menu_container{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.ebytes_profile_cvr_bottom_container
+.ebytes_profile_cvr_bottom_menus_container
+.ebytes_profile_cvr_bottom_menu_container:hover{
+    background: #E2E2E2;
+}
+
+.ebytes_profile_cvr_bottom_container
+.ebytes_profile_cvr_bottom_menus_container
+.ebytes_profile_cvr_bottom_menu_container a{
+    float: left;
+    padding: 6px 10px 4px 10px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: arial;
+    text-decoration: none;
+    color: #4075A9;
+}
+
+.ebytes_profile_cvr_bottom_container
+.ebytes_profile_cvr_bottom_menus_container
+.ebytes_profile_cvr_bottom_menu_container
+ul.ebytes_profile_cover_bottom_more_menus_main_lists_container{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ebytes_profile_cvr_bottom_container
+.ebytes_profile_cvr_bottom_menus_container
+.ebytes_profile_cvr_bottom_menu_container
+.ebytes_profile_cover_bottom_more_menus_main_lists_container li{
+    list-style: none;
+}
+
+.ebytes_profile_cvr_bottom_container
+.ebytes_profile_cvr_bottom_menus_container
+.ebytes_profile_cvr_bottom_menu_container
+.ebytes_profile_cover_bottom_more_menus_main_lists_container 
+li.ebytes_profile_cover_bottom_more_menu_caption_container{
+    cursor: default;
+    padding: 6px 10px 4px 10px;
+    margin: 0px;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: #4075A9;
+    position: relative;
+}
+
+.ebytes_profile_cvr_bottom_container
+.ebytes_profile_cvr_bottom_menus_container
+.ebytes_profile_cvr_bottom_menu_container
+.ebytes_profile_cover_bottom_more_menus_main_lists_container 
+li.ebytes_profile_cover_bottom_more_menu_caption_container ul{
+    display: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    background: #FFF;
+    border: 1px solid #F0F0F0;
+    border-top: none;
+    z-index: 980;
+}
+
+.ebytes_profile_cvr_bottom_container
+.ebytes_profile_cvr_bottom_menus_container
+.ebytes_profile_cvr_bottom_menu_container
+.ebytes_profile_cover_bottom_more_menus_main_lists_container:hover
+li.ebytes_profile_cover_bottom_more_menu_caption_container ul{
+    display: block;
+}
+
+.ebytes_profile_cvr_bottom_container
+.ebytes_profile_cvr_bottom_menus_container
+.ebytes_profile_cvr_bottom_menu_container
+.ebytes_profile_cover_bottom_more_menus_main_lists_container 
+li.ebytes_profile_cover_bottom_more_menu_caption_container ul li a{
+    min-width: 150px;
+    text-align: left;
+    padding: 6px 10px;
+    white-space: nowrap;
+    float: left;
+}
+
+.ebytes_profile_cvr_bottom_container
+.ebytes_profile_cvr_bottom_menus_container
+.ebytes_profile_cvr_bottom_menu_container
+.ebytes_profile_cover_bottom_more_menus_main_lists_container 
+li.ebytes_profile_cover_bottom_more_menu_caption_container ul li a:hover{
+    background: #E2E2E2;
+}
+
+/* bof the designs for the wall */
+.eb_profile_cvr_wall_event{
+    margin-left: 25px;
+    position: relative;
+}
+
+.eb_profile_cvr_wall_event 
+.eb_profile_cvr_wall_caption{
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    height: 30px;
+    line-height: 30px;
+}
+/* eof the designs for the wall */

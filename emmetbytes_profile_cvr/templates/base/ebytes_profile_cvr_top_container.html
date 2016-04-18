@@ -1,0 +1,43 @@
+<div class="ebytes_profile_cvr_top_container __extra_top_container_class__">
+    <div class="ebytes_profile_cvr_background_container" id='ebytes_profile_cvr_background_container'>
+        <div class="ebytes_profile_cvr_background_image_container">
+            <bx_if:show_bg_image>
+                <img src="__bg_image_path__" alt="" />
+            </bx_if:show_bg_image>
+        </div>
+        <bx_if:allow_change_cover>
+            <div class="ebytes_profile_cvr_background_menu_container">
+                <ul>
+                    <li class='ebytes_profile_cvr_main_menu_container ebytes_profile_cvr_insert_background_caption_container'>
+                        <span class="ebytes_profile_cvr_insert_background_icon_container"></span>
+                        <span class='ebytes_profile_cvr_background_menu_caption'>__insert_background_caption__</span><br />
+                        <div class='ebytes_profile_cvr_background_menu_options_loader_container'></div>
+                    </li>
+                </ul>
+            </div>
+        </bx_if:allow_change_cover>
+    </div>
+    <div class="ebytes_profile_cvr_thumbnail_container">
+        <bx_if:allow_thumbnail_change>
+            <div class="ebytes_profile_cvr_thumbnial_button_container">
+                <div class="ebytes_profile_cvr_thumbnail_button_inner_container">
+                    <form action="__form_avatar_action__" target='upload_avatar' method='post' id='ebytes_profile_cvr_upload_avatar_form' enctype='multipart/form-data'>
+                        <div class='ebytes_profile_cvr_upload_avatar_button'>
+                            <input type='file' name='avatar_image' /> __thumbnail_button_caption__
+                        </div>
+                    </form>
+                    <iframe id='upload_avatar' name='upload_avatar' frameborder="0"></iframe>
+                </div>
+            </div>
+        </bx_if:allow_thumbnail_change>
+        __member_thumbnail__ 
+    </div>
+    <div class="ebytes_profile_cvr_top_profile_datas">
+        <div class="ebytes_profile_cvr_profile_name">__member_name__</div>
+        <div class="ebytes_profile_cvr_profile_actions">
+            <div class="ebytes_profile_cvr_common_actions_container">
+                __member_buttons__
+            </div>
+        </div>
+    </div>
+</div>

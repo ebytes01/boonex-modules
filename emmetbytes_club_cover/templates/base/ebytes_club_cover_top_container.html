@@ -1,0 +1,50 @@
+<div class="ebytes_club_cover_top_container __extra_top_container_class__">
+    <div class="ebytes_club_cover_background_container" id='ebytes_club_cover_background_container'>
+        <div class="ebytes_club_cover_background_image_container">
+            <bx_if:show_bg_image>
+                <img src="__bg_image_path__" alt="" />
+            </bx_if:show_bg_image>
+        </div>
+        <bx_if:allow_change_cover>
+            <div class="ebytes_club_cover_background_menu_container">
+                <ul>
+                    <li class='ebytes_club_cover_main_menu_container ebytes_club_cover_insert_background_caption_container'>
+                        <span class="ebytes_club_cover_insert_background_icon_container"></span>
+                        <span class='ebytes_club_cover_background_menu_caption'>__insert_background_caption__</span><br />
+                        <div class='ebytes_club_cover_background_menu_options_loader_container'></div>
+                    </li>
+                </ul>
+            </div>
+        </bx_if:allow_change_cover>
+    </div>
+    <div class="ebytes_club_cover_logo_container">
+        <bx_if:allow_logo_change>
+            <div class="ebytes_club_cover_logo_button_container">
+                <div class="ebytes_club_cover_logo_button_inner_container">
+                    <form action="__form_logo_action__" target='upload_logo' method='post' id='ebytes_club_cover_upload_logo_form' enctype='multipart/form-data'>
+                        <div class='ebytes_club_cover_upload_logo_button'>
+                            <input type='file' name='logo_image' /> __logo_button_caption__
+                        </div>
+                    </form>
+                    <iframe id='upload_logo' name='upload_logo' frameborder="0"></iframe>
+                </div>
+            </div>
+        </bx_if:allow_logo_change>
+        __club_logo__
+    </div>
+    <div class="ebytes_club_cover_top_club_datas">
+        <div class="ebytes_club_cover_top_info_container">
+            <div class="ebytes_club_cover_club_name">__club_name__</div>
+            <div class="ebytes_club_cover_author_info">__author_info__</div>
+            <div class='ebytes_club_cover_views_and_rate_container'>
+                __club_rate__
+                <div class='ebytes_club_container_views_counter'>__club_views__</div>
+            </div>
+        </div>
+        <div class="ebytes_club_cover_club_actions">
+            <div class="ebytes_club_cover_common_actions_container">
+                __member_buttons__
+            </div>
+        </div>
+    </div>
+</div>

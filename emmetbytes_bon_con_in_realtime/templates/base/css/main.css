@@ -1,0 +1,198 @@
+/* BOF THE DESIGNS FOR THE COMMON CONTAINER */
+/* bof the designs for the common block main container */
+.emmetbytes_bon_con_in_realtime_common_main_container{
+    position: relative;
+    white-space: nowrap;
+    font-size: 12px;
+    font-family: arial;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_loader_container{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: url('../images/loader.gif') center center no-repeat;
+    position: absolute;
+    z-index: 15;
+    top: 0;
+    left: 0;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_loader_container .emmetbytes_bon_con_in_realtime_loader_background{
+    height: 100%;
+    width: 100%;
+    background: #FFF;
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=20)';
+    filter: alpha(opacity=20);
+    -moz-opacity: 0.2;
+    -khtml-opacity: 0.2;
+    opacity: 0.2;
+}
+
+/* bof the designs for the common thumbnail container */
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container{
+    position: relative;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #EFEFEF;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnails_inner_container{
+    position: relative;
+    left: 0px;
+    margin: 0 auto;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+    font-size: 12px;
+    text-align: left;
+    white-space: normal;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container .emmetbytes_bon_con_in_realtime_common_inner_thumbnail_container{
+    border-bottom: 1px solid #F1F1F1;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_new_entry_counter{
+    display: none;
+    border: 1px solid #F0F0F0;
+    cursor: pointer;
+    text-align: center;
+    color: #005066;
+    padding: 5px 0;
+    margin: 1px 0;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 18px;
+    background: #FFF;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_go_to_page_container{
+    border: 1px solid #F0F0F0;
+    text-align: center;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 18px;
+    color: #2B2B2B;
+    margin: 2px 0;
+    padding: 8px 0;
+    background: #FFF;
+}
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_go_to_page_container a{
+    color: #005066;
+    text-transform: capitalize;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container .emmetbytes_bon_con_in_realtime_common_inner_thumbnail_container .emmetbytes_bon_con_in_realtime_information_container_contents{
+    padding-left: 154px;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container .emmetbytes_bon_con_in_realtime_common_inner_thumbnail_container .emmetbytes_bon_con_in_realtime_information_container_contents .emmetbytes_bon_con_in_realtime_information_container_restricted_contents {
+    font-size: 14px;
+    font-weight: bold;
+    color: #656565;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container .emmetbytes_bon_con_in_realtime_common_inner_thumbnail_container .emmetbytes_bon_con_in_realtime_information_container_contents .emmetbytes_bon_con_in_realtime_information_container_content{
+    overflow: hidden;
+    margin: 1px 0;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container .emmetbytes_bon_con_in_realtime_common_inner_thumbnail_container .emmetbytes_bon_con_in_realtime_information_container_contents .emmetbytes_bon_con_in_realtime_information_caption_container{
+    float: left;
+    margin: 0px;
+    padding: 0px 2px 0 0;
+    width: 90px;
+    font-family: arial;
+    font-weight: bold;
+    color: #545454;
+    text-align: right;
+    font-size:14px;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container .emmetbytes_bon_con_in_realtime_common_inner_thumbnail_container .emmetbytes_bon_con_in_realtime_information_container_contents .emmetbytes_bon_con_in_realtime_information_content_container{
+    color: #3C3C3C;
+    font-size:14px;
+    margin-left: 93px;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container .emmetbytes_bon_con_in_realtime_common_inner_thumbnail_container .emmetbytes_bon_con_in_realtime_information_container_contents .emmetbytes_bon_con_in_realtime_information_content_container .votes_small{
+    float: left;
+    margin: 3px 0 0;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container .emmetbytes_bon_con_in_realtime_common_inner_thumbnail_container .emmetbytes_bon_con_in_realtime_information_container_contents .emmetbytes_bon_con_in_realtime_information_fans_container{
+    padding: 0 0 0 12px;
+    background: url('../images/icons/participant.png') 0 center no-repeat;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container.active .emmetbytes_bon_con_in_realtime_common_inner_thumbnail_container{
+    background: url('../images/pattern1.png') 0 0 repeat #FEFEFE;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container p{
+    color: #9C9C9C;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: arial;
+    float: left;
+    word-wrap: break-word; 
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container.active p{
+    color: #005066; 
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container a{
+    color: #005066; 
+    font-weight: bold;
+    font-family: arial;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container.active a{
+    color: #006686; 
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container .emmetbytes_bon_con_in_realtime_common_thumbnail_inner_container{
+    float: left;
+    background: #FFF;
+    padding: 4px;
+    border: 1px solid #E0E0E0;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container .emmetbytes_bon_con_in_realtime_common_thumbnail_inner_container .emmetbytes_bon_con_in_realtime_common_thumb_container{
+    background: url('../images/pattern2.png') 0 0 repeat #FEFEFE;
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container .emmetbytes_bon_con_in_realtime_common_thumbnail_inner_container img{
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: 1px solid #F0F0F0; */
+}
+
+.emmetbytes_bon_con_in_realtime_common_main_container .emmetbytes_bon_con_in_realtime_common_thumbnails_container .emmetbytes_bon_con_in_realtime_common_thumbnail_container.active .emmetbytes_bon_con_in_realtime_common_thumbnail_inner_container{
+    border: 1px solid #B8B8B8;
+}
+
+/* bof the designs for the restricted container */
+.emmetbytes_bon_con_in_realtime_restricted_container{
+    background: #FFF;
+}
+/* EOF THE DESIGNS FOR THE COMMON CONTAINER */
+
+.clear_both{
+    clear: both;
+    height: 0px;
+    margin: 0px;
+    border: 0px;
+}

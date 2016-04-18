@@ -1,0 +1,111 @@
+EmmetBytes Profile Cover Mnmal Installation Tutorial
+
+Dolphin 7.1.0-7.1.2 Installation
+1. Create the directory named EmmetBytes inside the modules/ folder ( {your_websites_root_path}/modules/EmmetBytes )
+2. Paste this module inside the EmmetBytes directory ( {your_websites_root_path}/modules/EmmetBytes/emmetbytes_profile_cvr )
+3. Install the module 
+4. Apply these following changes on this file templates/base/_sub_header.html
+    1. Near the line 18, insert this codes,
+
+            <div class='eb_profile_cvr' style='width:__main_div_width__;'>
+                <bx_injection:injection_eb_profile_cvr />
+            </div>	
+
+        after this lines of codes
+
+            <bx_injection:injection_between_top_menu_content />
+            <!-- end of top -->
+
+
+5. Apply these following changes on this file modules/boonex/avatar/BxAvaModule.php changes
+    1. Near the line 126, insert this codes,
+
+            // emmetbytes profile cover property
+            var $profileCoverTmpPath;
+
+        after this line of code,
+        
+            var $_iProfileId;
+
+    2. Near the line 375, insert this codes,
+
+            // setting the emmetbytes avatar
+            $this->setEmmetBytesAvatar($sImg);
+
+        after this codes,
+
+            if (!$this->_iProfileId)
+                return false;
+
+            if (!file_exists($sImg))
+                return false;
+
+    3. Near the line 793, insert this codes,
+        
+            //emmetbytes profile cover
+            $this->renameEmmetBytesProfileCoverAvatar($iAvatar);
+        
+        after this lines of code,
+
+            if (IMAGE_ERROR_SUCCESS != $o->resize($sImageThumb, $sImageIcon)) {
+                $this->_oDb->deleteAvatarByIdAndOwner ($iAvatar, $this->_iProfileId, $this->isAdmin());
+                @unlink(BX_AVA_DIR_USER_AVATARS . $iAvatar . BX_AVA_EXT);
+                @unlink(BX_AVA_DIR_USER_AVATARS . $iAvatar . 'i' . BX_AVA_EXT);
+                return false;
+            }
+
+    4. Near the line 866, insert this codes
+
+            // setting the emmetbytes profile cover avatar
+            $this->setEmmetBytesAvatar($sSrcImagePath);
+
+        after this lines of codes
+
+            $sSrcImagePath = BX_AVA_DIR_TMP . $this->_iProfileId . BX_AVA_EXT;
+            $sDstImagePath = BX_AVA_DIR_TMP . 'tmp' . $this->_iProfileId . BX_AVA_EXT;
+
+    5. Near the line 885, insert this following functions
+
+            // BOF THE EMMETBYTES PROFILE COVER METHODS
+            // setting emmetbytes profile cover avatar
+            private function setEmmetBytesAvatar($sImg){
+                $this->profileCoverTmpPath = BX_AVA_DIR_TMP . $this->_iProfileId . 'eb' . BX_AVA_EXT;
+                $o = BxDolImageResize::instance(EB_AVA_W, EB_AVA_W);
+                $o->removeCropOptions ();
+                $o->setJpegOutput (true);
+                $o->setSize (EB_AVA_W, EB_AVA_W);
+                $o->setSquareResize (true);
+                $o->setJpegQuality (getParam('bx_avatar_quality'));
+                if (IMAGE_ERROR_SUCCESS != $o->resize($sImg, $this->profileCoverTmpPath))
+                    return false;
+            }
+
+            // rename emmetbytes profile cover avatar
+            private function renameEmmetBytesProfileCoverAvatar($iAvatar){
+                if(isset($this->profileCoverTmpPath) && !empty($this->profileCoverTmpPath)){
+                    $sEmmetBytesImagePath = BX_AVA_DIR_USER_AVATARS . $iAvatar . 'eb' . BX_AVA_EXT;
+                    copy($this->profileCoverTmpPath, $sEmmetBytesImagePath);
+                }
+            }
+            // EOF THE EMMETBYTES PROFILE COVER METHODS
+
+        after this function
+            
+
+            function _cropAvatar () {
+                ....
+            }
+
+6. Apply these changes on this file modules/boonex/avatar/include.php
+
+    1. Near the line 17, insert the following codes
+
+            // emmetbytes changes for the profile cover module
+            define('EB_AVA_W', 166);
+            define('EB_AVA_W', 166);
+
+        after this lines of codes
+
+            define ('BX_AVA_ICON_W', 32); // avatar icon width
+            define ('BX_AVA_ICON_H', 32); // avatar icon height
+7. Clean all your websites cache

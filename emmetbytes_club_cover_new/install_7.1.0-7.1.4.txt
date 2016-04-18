@@ -1,0 +1,169 @@
+EmmetBytes Club Cover Installation Tutorial
+
+Dolphin 7.1.0-7.1.4 Installation
+1. Create the directory named EmmetBytes inside the modules/ folder ( {your_websites_root_path}/modules/EmmetBytes )
+2. Paste this module inside the EmmetBytes directory ( {your_websites_root_path}/modules/EmmetBytes/emmetbytes_club_cover )
+3. Install the module 
+4. Apply these following changes on this file templates/{your_current_template}/base/_sub_header.html(if it exists) or templates/base/_sub_header.html
+    1. Near the line 18, insert this codes,
+
+            <div class='eb_club_cover' style='width:__main_div_width__;'>
+                <bx_injection:injection_eb_club_cover />
+            </div>  
+
+        after this lines of codes
+
+            <bx_injection:injection_between_top_menu_content />
+            <!-- end of top -->
+
+
+5. Apply these following changes on this file modules/boonex/avatar/BxAvaModule.php changes
+    1. Near the line 126, insert this codes,
+
+            // emmetbytes club cover property
+            var $clubCoverTmpPath;
+
+        after this line of code,
+        
+            var $_iProfileId;
+
+    2. Near the line 375, insert this codes,
+
+            // setting the emmetbytes avatar
+            $this->setEmmetBytesAvatar($sImg);
+
+        after this codes,
+
+            if (!$this->_iProfileId)
+                return false;
+
+            if (!file_exists($sImg))
+                return false;
+
+    3. Near the line 797, insert this codes,
+        
+            //emmetbytes club cover
+            $this->renameEmmetBytesClubCoverAvatar($iAvatar);
+        
+        after this lines of code,
+
+            if (IMAGE_ERROR_SUCCESS != $o->resize($sImageThumb, $sImageIcon)) {
+                $this->_oDb->deleteAvatarByIdAndOwner ($iAvatar, $this->_iProfileId, $this->isAdmin());
+                @unlink(BX_AVA_DIR_USER_AVATARS . $iAvatar . BX_AVA_EXT);
+                @unlink(BX_AVA_DIR_USER_AVATARS . $iAvatar . 'i' . BX_AVA_EXT);
+                return false;
+            }
+
+    4. Near the line 866, insert this codes
+
+            // setting the emmetbytes club cover avatar
+            $this->setEmmetBytesAvatar($sSrcImagePath);
+
+        after this lines of codes
+
+            $sSrcImagePath = BX_AVA_DIR_TMP . $this->_iProfileId . BX_AVA_EXT;
+            $sDstImagePath = BX_AVA_DIR_TMP . 'tmp' . $this->_iProfileId . BX_AVA_EXT;
+
+    5. Near the line 885, insert this following functions
+
+            // BOF THE EMMETBYTES CLUB COVER METHODS
+            // setting emmetbytes club cover avatar
+            private function setEmmetBytesAvatar($sImg){
+                $this->clubCoverTmpPath = BX_AVA_DIR_TMP . $this->_iProfileId . 'eb' . BX_AVA_EXT;
+                $o = BxDolImageResize::instance(EB_AVA_W, EB_AVA_W);
+                $o->removeCropOptions ();
+                $o->setJpegOutput (true);
+                $o->setSize (EB_AVA_W, EB_AVA_W);
+                $o->setSquareResize (true);
+                $o->setJpegQuality (getParam('bx_avatar_quality'));
+                if (IMAGE_ERROR_SUCCESS != $o->resize($sImg, $this->clubCoverTmpPath))
+                    return false;
+            }
+
+            // rename emmetbytes club cover avatar
+            private function renameEmmetBytesClubCoverAvatar($iAvatar){
+                if(isset($this->clubCoverTmpPath) && !empty($this->clubCoverTmpPath)){
+                    $sEmmetBytesImagePath = BX_AVA_DIR_USER_AVATARS . $iAvatar . 'eb' . BX_AVA_EXT;
+                    copy($this->clubCoverTmpPath, $sEmmetBytesImagePath);
+                }
+            }
+            // EOF THE EMMETBYTES CLUB COVER METHODS
+
+        after this function
+            
+
+            function _cropAvatar () {
+                ....
+            }
+
+6. Apply these changes on this file modules/boonex/avatar/include.php
+
+    1. Near the line 17, insert the following codes
+
+            // emmetbytes changes for the club cover module
+            define('EB_AVA_W', 166);
+            define('EB_AVA_W', 166);
+
+        after this lines of codes
+
+            define ('BX_AVA_ICON_W', 32); // avatar icon width
+            define ('BX_AVA_ICON_H', 32); // avatar icon height
+
+7. Apply this changes on this file inc/images.inc.php
+    
+    1. Near the line 38, find and change this line of code from
+
+            if ((($sizeX == 32) && (32 == $sizeY)) || (($sizeX == 64) && (64 == $sizeY)))
+        to
+            // EMMETBYTES CHANGES
+            if ((($sizeX == 32) && (32 == $sizeY)) || (($sizeX == 64) && (64 == $sizeY)) || (($sizeX == 166) && (166 == $sizeY)))
+
+8. Apply this changes on this file modules/boonex/photos/classes/BxPhotosConfig.php
+    
+    1. Near the line 19, insert this code 
+
+                'eb' => '_eb.jpg', // EMMETBYTES CHANGES
+            after this line
+                'thumb' => '_rt.jpg',
+                'browse' => '_t.jpg',
+
+9. Apply this changes on this file modules/boonex/photos/classes/BxPhotosUploader.php
+
+    1. Near the line 256 find this code
+
+            function servicePerformPhotoUpload ($sTmpFilename, $aFileInfo, $isUpdateThumb, $iAuthorId = 0)
+        and change to 
+            function servicePerformPhotoUpload ($sTmpFilename, $aFileInfo, $isUpdateThumb, $iAuthorId = 0, $fromEB = false, $uImg = '')
+
+    2. Near the line 260, find this code
+
+            return $this->performPhotoUpload($sTmpFilename, $aFileInfo, $isUpdateThumb, false, 0, $iAuthorId);
+        and change to 
+            return $this->performPhotoUpload($sTmpFilename, $aFileInfo, $isUpdateThumb, false, 0, $iAuthorId, $fromEB, $uImg);
+
+    3. Near the line 326, find this code
+
+            function performPhotoUpload($sTmpFile, $aFileInfo, $bAutoAssign2Profile = false, $isMoveUploadedFile = true, $iChangingPhotoID = 0, $iAuthorId = 0)
+        and change to 
+            function performPhotoUpload($sTmpFile, $aFileInfo, $bAutoAssign2Profile = false, $isMoveUploadedFile = true, $iChangingPhotoID = 0, $iAuthorId = 0, $fromEB = false, $ebImg = '')
+
+    4. Near the line 434, insert this code
+
+            'eb' => array('postfix' => 'eb', 'size_def' => 166),
+        after this lines of codes
+            'icon'  => array('postfix' => 'ri', 'size_def' => 32),
+            'thumb' => array('postfix' => 'rt', 'size_def' => 64),
+            'browse'=> array('postfix' => 't', 'size_def' => 140),
+
+    5. Near the line 451, find this line of code
+
+            $iRes = imageResize($sFile, $sNewFilePath, $iWidth, $iHeight, true);
+        and change to 
+            // EMMETBYTES CHANGES
+            if($fromEB && ($sKey == 'icon' || $sKey == 'thumb' || $sKey == 'eb')){
+                $iRes = imageResize($ebImg, $sNewFilePath, $iWidth, $iHeight, true);
+            }else{
+                $iRes = imageResize($sFile, $sNewFilePath, $iWidth, $iHeight, true);
+            }
+        
+10. Clean all your websites cache ( both the files from the cache/ and the cache_public/ folder )
